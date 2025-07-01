@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet id="004-insert-default-roles" author="developer">
+        <insert tableName="roles">
+            <column name="name" value="USER"/>
+            <column name="description" value="Regular user with basic permissions"/>
+        </insert>
+        
+        <insert tableName="roles">
+            <column name="name" value="ADMIN"/>
+            <column name="description" value="Administrator with full system access"/>
+        </insert>
+        
+        <insert tableName="roles">
+            <column name="name" value="MODERATOR"/>
+            <column name="description" value="Event moderator with content management permissions"/>
+        </insert>
+        
+        <insert tableName="roles">
+            <column name="name" value="EVENT_ORGANIZER"/>
+            <column name="description" value="User who can create and manage events"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
