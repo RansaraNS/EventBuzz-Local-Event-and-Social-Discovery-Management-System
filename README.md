@@ -1,5 +1,10 @@
 # 🎉 EventBuzz - Local Event & Social Discovery Management System
 
+![Project Status](https://img.shields.io/badge/status-in--development-yellow)
+
+> ⚠️ This project is currently under active development. Expect rapid changes, new features, and frequent commits.
+
+
 **EventBuzz** is a modern, location-based social discovery platform that connects people through real-world events. Designed for both attendees and organizers, it blends social networking, event management, and discovery into one seamless experience.
 
 ---
