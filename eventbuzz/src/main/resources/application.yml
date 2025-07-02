@@ -37,8 +37,11 @@ spring:
         order_updates: true
   
   liquibase:
+    enabled: true
     change-log: classpath:db/changelog/db.changelog-master.xml
+    contexts: dev
     default-schema: ${DB_NAME:eventbuzz_db}
+    drop-first: false
   
   mail:
     host: ${EMAIL_HOST:smtp.gmail.com}

@@ -26,7 +26,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="date_of_birth" type="DATE"/>
-            <column name="gender" type="ENUM('MALE', 'FEMALE')"/>
+            <column name="gender" type="ENUM('MALE', 'FEMALE', 'OTHER', 'PREFER_NOT_TO_SAY')"/>
             <column name="profile_picture_url" type="VARCHAR(500)"/>
             <column name="bio" type="TEXT"/>
             <column name="is_email_verified" type="BOOLEAN" defaultValueBoolean="false">

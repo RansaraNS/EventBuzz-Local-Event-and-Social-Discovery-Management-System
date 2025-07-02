@@ -5,9 +5,10 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
     http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
-    <include file="db/changelog/v1.0/001-create-roles-table.xml"/>
-    <include file="db/changelog/v1.0/002-create-users-table.xml"/>
-    <include file="db/changelog/v1.0/003-create-verification-tokens-table.xml"/>
-    <include file="db/changelog/v1.0/004-insert-default-roles.xml"/>
+    <!-- includes here -->
+    <include file="changelogs/2025_07_02_153831_create-roles-table.xml"/>
+    <include file="changelogs/2025_07_02_153854_create-users-table.xml"/>
+    <include file="changelogs/2025_07_02_154006_create-verification-tokens-table.xml"/>
+    <include file="changelogs/2025_07_02_154048_create-default-roles-table.xml"/>
 
 </databaseChangeLog>
